@@ -1,0 +1,160 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #2782e3;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: blue;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    background-color: #eee;
+    min-height: 321px;
+    width: 520px;
+    margin: 100px auto;
+    border-radius: 5px;
+    height: auto;
+}
+.base{
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    display: block;
+    float: none;
+}
+.base h4{
+	font-size: 26px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: normal;
+    margin-top: 0px;
+    box-shadow: 0px 2px #bababa;
+    background: white;
+    font-size: 34px;
+    color: navy;
+}
+.block {
+    width: 135px;
+    padding: 5px 20px;
+    margin-left: 20px;
+    display: inline-block;
+    float: left;
+}
+.title{
+    font-size: 20px;
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+    color: #1073d0;
+    word-spacing: 2.7px;
+}
+input[type=text]{
+    width: 140px;
+    margin: auto;
+    outline: none;
+    min-height: 50px;
+    border: 2px solid #1073d0;
+    border-radius: 2px;
+    color: #1073d0;
+    font-size: 17px;
+    padding: 12px;
+}
+input[type=text]:focus{
+    background: #ffffff;
+    border: 2px solid orange;
+
+}
+input[type=button]{
+    width: 150px;
+    margin-left: 35%;
+    margin-top: 40px;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    background-color: #0761b6;
+    padding: 14px 16px;
+    color: white;
+    font-size: 18px;
+}
+input[type=button]:hover{
+    background-color: #003669;
+}
+.age{
+    display: block;
+    margin: 10px;
+    margin-top: 35px;
+    padding: 10px;
+    padding-bottom: 20px;
+    overflow: hidden;
+    font-family: verdana;
+    font-size: 23px;
+    font-weight: normal;
+    line-height: 1.5;
+    word-spacing: 2.7px;
+    color: navy;
+}
+
+
+/* From here*/
+
+label{
+    display: block;
+    font-size: 22px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+input{
+    margin-bottom: 20px;
+    border: none;
+    font-size: 20px;
+    border-bottom: 2px solid #585858;
+    padding: 2px 15px;
+}
+input:focus{
+    outline: none;
+    border-bottom: 2.4px solid #01e26e;
+}
+.input-wrapper{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.input-wrapper input{
+    width: 100%;
+}
+.time-wrapper{
+
+}
+select{
+    width: 35%;
+    border: 1px solid #585858;
+    font-size: 20px;
+    margin-left: 3%;
+    padding: 8px 0;
+    border-radius: 5px;
+}
+button{
+    display: block;
+    background-color: #01e26e;
+    border: none;
+    color: #ffffff;
+    margin: 20px auto 0 auto;
+    padding: 15px 40px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+#result{
+    background-color: #c6ff2e;
+    margin-top: 30px;
+    color: #585858;
+    text-align: center;
+}
